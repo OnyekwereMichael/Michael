@@ -6,6 +6,14 @@
 body{
     background-color: chocolate;
 }
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 section{
     background-color: #fff;
     border-radius: 20px;
@@ -13,6 +21,7 @@ section{
     margin: 30px;
 }
 #first{
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 section #email{
